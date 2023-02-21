@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: inline-block;
+  margin-top: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+#display {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  height: 2rem;
+  font-size: 1.5rem;
+  text-align: right;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+input[type="button"] {
+  width: 20%;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  margin: 0.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #eee;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+input[type="button"]:hover {
+  background-color: #ddd;
+}
+
+input[type="button"]:active {
+  box-shadow: none;
+  transform: translateY(2px);
+}
